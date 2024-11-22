@@ -1,11 +1,15 @@
+#mod {
+	width: 350px;
+	height: 350px;
+	background: green;
+	margin: 7px auto;
+
+}
+
 body {
 	text-align = center;
 }
 
-#mod {
-	width: 700px;
-	height: 700px;
-	background: green;
-	margin: 30px auto;
-
+#intro {
+	display = block;
 }
