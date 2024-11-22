@@ -5,7 +5,7 @@ body {
 #mod {
 	width: 700px;
 	height: 700px;
-	margin: 30px;
-	
+	background: green;
+	margin: 30px auto;
 
 }
