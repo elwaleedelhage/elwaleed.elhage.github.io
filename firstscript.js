@@ -1,12 +1,12 @@
-var button = document.querySelector('button');
-var box = document.getElementById('mod');
-var txt = document.getElementById('intro');
+document.querySelectorAll('nav a').forEach(link => {
+	link.addEventListener('click', function (e) {
+		e.preventDefault();
+		const targetId = this.getAttribute('href').slice(1);
+		const targetSection = document.getElementById(targetId);
 
-function changeColor(){
-	if(box.style.background == 'purple'){
-		box.style.background = 'green';
-	}else{
-		box.style.background = 'purple';
-	}
-	txt.textContent = 'green and purple are my top 2 favorite colors :) .';
-}
+		window.scrollTo({
+			top: targetSection.offsetTop,
+			behavior: 'smooth'
+		});
+	});
+});

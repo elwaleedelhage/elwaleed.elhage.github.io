@@ -1,24 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv=“X-UA-Compatible” content=“ie-edge”>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HTML 5 Testgrounds</title>
-    <link rel="stylesheet" href="style.css">
+	<title>My Simple Personal Page</title>
 
-  </head>
+	<link rel="stylesheet" href="style.css">
+</head>
 
-  <body>
-  
-    <p id="intro">Hello World I'm glad you're here today.</p>
+<body>
+	<header>
+		<h1>Waleed Elhage</h1>
+		<nav>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+		</nav>
+	</header>
 
-    <button onclick="changeColor()">You Know You Want To</button>
+	<main>
+		<section id="about">
+			<h2>About Me</h2>
+			<p>Short description about who I am.</p>
+		</section>
 
-    <div id="mod"></div>
+		<section id="contact">
+			<h2>Contact</h2>
+			<p>Email me at <a href="mailto:elwaleed.elhage@icloud.com">elwaleed.elhage@icloud.com</a></p>
+		</section>
+	</main>
 
-    <script src="firstscript.js"></script>
+	<footer>
+		<p>&copy; 2024 Elwaleed Elhage</p>
+	</footer>
 
-  </body>
+	<script src=“firstscript.js”></script>
+</body>
 </html>
